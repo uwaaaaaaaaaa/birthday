@@ -232,6 +232,11 @@ body {
   cursor: pointer;
 }
 
+#playBtn {
+  position: relative;
+  z-index: 9999;
+}
+
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
